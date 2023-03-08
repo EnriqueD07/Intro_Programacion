@@ -1,7 +1,7 @@
-/*Solucion ejercicio 2
-    El programa deber韆 leer dos n鷐eros enteros, x e y , e imprimir "Your answer: " y la
-    seguido de la suma de los n鷐eros x + y + z , donde z = 1 , en una l韓ea. Pero hay
-    errores de compilaci髇 en el c骴igo. Corr韏alos uno por uno y vea c髆o cambian los
+/*Solucion ejercicio 4
+    El programa deber铆a leer dos n煤meros enteros, x e y , e imprimir "Your answer: " y la
+    seguido de la suma de los n煤meros x + y + z , donde z = 1 , en una l铆nea. Pero hay
+    errores de compilaci贸n en el c贸digo. Corr铆jalos uno por uno y vea c贸mo cambian los
     mensajes de error.*/
 
 #include <iostream>
@@ -12,6 +12,6 @@ int main() //corregimos ma --> main
  cout<<"introduce x y "<<endl;
  cin >> x>>y; //cambiamos la , por >>
  z = 1;
- cout << "Your answer: "<<x+y+z<<endl;; //cambiamos las comillas simples por dobles, agregamos la operaci髇
+ cout << "Your answer: "<<x+y+z<<endl;; //cambiamos las comillas simples por dobles, agregamos la operaci贸n
  return 0;
 }
