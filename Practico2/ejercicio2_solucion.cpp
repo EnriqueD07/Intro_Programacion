@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     /*Solucion ejercicio 2
-    Escriba un programa que lea dos números double e imprima su cociente.*/
+    Escriba un programa que lea dos nÃºmeros double e imprima su cociente.*/
     double a,b,c;
     cout<<"Ingresar dos numeros"<<endl;
     cin>>a>>b;
