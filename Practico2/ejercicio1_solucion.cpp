@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     /*Solucion ejercicio 1
-     Escriba un programa que lea dos números double
+     Escriba un programa que lea dos nÃºmeros double
      e imprima la parte entera de su suma. */
     double a,b;
     int s;
