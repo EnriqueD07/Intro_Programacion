@@ -1,7 +1,7 @@
 /*
 SOLUCION EJERCICIO 7
-Escriba un programa que lea los tÌtulos de tres libros, uno por lÌnea, y los imprima en
-orden inverso, tambiÈn uno por lÌnea. El tÌtulo de un libro puede tener m·s de una palabra,
+Escriba un programa que lea los t√≠tulos de tres libros, uno por l√≠nea, y los imprima en
+orden inverso, tambi√©n uno por l√≠nea. El t√≠tulo de un libro puede tener m√°s de una palabra,
 es decir el inicio del titulo de un nuevo libre no esta separado por espacios si no por una
 nueva linea.
 */
