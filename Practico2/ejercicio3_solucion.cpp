@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
     /*Solucion ejercicio 2
-    Solucione los errores del programa que pide que ingrese dos números enteros: el ancho y
-    el alto de un rectángulo, y luego muestra su área.*/
+    Solucione los errores del programa que pide que ingrese dos nÃºmeros enteros: el ancho y
+    el alto de un rectÃ¡ngulo, y luego muestra su Ã¡rea.*/
     int width,height;
     cout << "Enter rectangle width and height"s << endl;
     cin >> width >> height;
