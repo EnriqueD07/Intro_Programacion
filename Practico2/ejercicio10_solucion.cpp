@@ -1,8 +1,8 @@
 /*
 SOLUCION EJERCICIO 10
-Escriba un programa que lea un número (número de documentos) y muestre <número de
+Escriba un programa que lea un nÃºmero (nÃºmero de documentos) y muestre <nÃºmero de
 documentos> documentos encontrados . Primero, forme una cadena con la respuesta, solo
-luego muéstrela en la pantalla en su totalidad.
+luego muÃ©strela en la pantalla en su totalidad.
 */
 #include <iostream>
 #include <string>
