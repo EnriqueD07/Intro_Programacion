@@ -1,8 +1,8 @@
 /*
 SOLUCION EJERCICIO 8
-Lea cinco palabras de la entrada est·ndar e imprima el primer caracter de cada palabra
-de entrada. Una palabra es una secuencia de caracteres como letras, n˙meros, signos de
-puntuaciÛn. Las palabras est·n separadas por un solo espacio.
+Lea cinco palabras de la entrada est√°ndar e imprima el primer caracter de cada palabra
+de entrada. Una palabra es una secuencia de caracteres como letras, n√∫meros, signos de
+puntuaci√≥n. Las palabras est√°n separadas por un solo espacio.
 */
 #include <iostream>
 #include <string>
