@@ -1,9 +1,9 @@
 /*
 SOLUCION EJERCICIO 5
-No todos los errores se pueden detectar durante la compilación del programa. Algunos
+No todos los errores se pueden detectar durante la compilaciÃ³n del programa. Algunos
 de ellos sobreviven hasta el momento de su deployment (Lanzar a produccion).
-Aquí está el código de un programa que debe leer números del tipo doble y mostrar su suma. Hay
-un error en el código. Corrijalo.
+AquÃ­ estÃ¡ el cÃ³digo de un programa que debe leer nÃºmeros del tipo doble y mostrar su suma. Hay
+un error en el cÃ³digo. Corrijalo.
 */
 
 #include <iostream>
