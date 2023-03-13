@@ -10,11 +10,30 @@ No se requiere experiencia previa para un coordinador de proyecto . Sin embargo,
 un director de proyecto debe tener al menos tres años de experiencia y un
 director senior debe tener al menos cinco años de experiencia.
 */
+
+/*
+edad,aexperiencia 
+input edad
+input aexperiencia
+
+if edad>=18
+
+if aexperiencia >=5
+print director senior
+else if aexperiencia>=3
+print director de proyecto
+else 
+print coordinador de proyecto
+
+else 
+print No cuenta con la edad necesaria para el puesto
+
+*/
 #include <iostream>
 using namespace std;
 int main()
 {
-    int edad,aexperiencia;
+    int edad,aexperiencia; // declaramos las variables edad y aexperiencia aexperiencia son los años de experiencia 
     cin>>edad>>aexperiencia;
     if (edad>=18)
     {
