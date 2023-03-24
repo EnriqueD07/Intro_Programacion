@@ -11,7 +11,7 @@ int main()
 {
     string casa1,casa2,casa3,casa;
     cin>>casa1>>casa2>>casa3>>casa;
-    if (casa1!=casa2!=casa3)
+    if ((casa1!=casa2)&&(casa2!=casa3)&&(casa1!=casa3))
     {
     if (casa1==casa)
     {
