@@ -1,3 +1,24 @@
+//Solucion ejercicio 7
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+ string query;
+ getline(cin, query);
+ char ch;
+ int caract = query.size();
+ for (int i=0; i<=caract; ++i)
+ {
+ 	ch=query [i];
+ 	if (ch==' ')
+	{
+		cout<<i<<endl;
+	}
+ }
+ cout<<caract<<endl;
+ return 0;
+}
 /*
 Para buscar documentos, debe poder dividir el texto en palabras. Inicialmente, lo
 haremos de una forma no estandar: escriba su propio algoritmo.
@@ -12,12 +33,3 @@ Restricciones
 Hay un espacio entre las palabras. No hay espacios al principio o al final de la cadena.
 Hay exactamente una línea en la consulta.
 */
-#include <iostream>
-#include <string>
-using namespace std;
-int main() 
-{
- string query;
- getline(cin, query);
-// Su codigo aqui
-}
