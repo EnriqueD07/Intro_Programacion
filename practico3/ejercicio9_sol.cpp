@@ -1,3 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    bool nom;
+    cout<<"Ingresar 10 valores:"<<endl;
+    for (int i=1 ; i<=10 ; i++)
+    {
+        cin>>nom;
+        if (nom==1)
+        {
+            cout<<"om nom nom :P"<<endl;
+        }
+        if (nom==0)
+        {
+            cout<<"no cake :("<<endl;
+        break;
+        }
+    }
+ return 0;
+}
 /*
 Ejercicio 9
 Según una encuesta realizada por Most Accurate Statistics Bureau , los encuestados
@@ -12,26 +32,3 @@ escriba Sin pastel :( y finalice el ciclo con una declaración de break . Tambie
 ignorarse ingresar más de 10 unidades, ya que el ciudadano promedio ya se ha quedado
 sin pastel en este caso.
 */
-#include <iostream>
-using namespace std;
-int main() {
- // Escriba un ciclo for, que realice 10 idas a la heladera
-    bool nom;
-    int a,b;
-    cout<<"Ingresar 10 valores:"<<endl;
-    for (int i ; i<=10 ; i++)
-    {
-        cin>>nom;
-        if (nom==1)
-        {
-            cout<<"om nom nom :P"<<endl;
-        a++;
-        }
-        if (nom==0)
-        {
-            cout<<"no cake :("<<endl;
-        break;
-        }
-    }
- return 0;
-}
