@@ -17,16 +17,21 @@ using namespace std;
 int main() {
  // Escriba un ciclo for, que realice 10 idas a la heladera
     bool nom;
-    for (int i ; i<=10 ; ++i)
+    int a,b;
+    cout<<"Ingresar 10 valores:"<<endl;
+    for (int i ; i<=10 ; i++)
     {
         cin>>nom;
         if (nom==1)
         {
-        a++
+            cout<<"om nom nom :P"<<endl;
+        a++;
         }
         if (nom==0)
         {
+            cout<<"no cake :("<<endl;
         break;
         }
     }
+ return 0;
 }
