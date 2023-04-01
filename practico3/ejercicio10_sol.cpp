@@ -18,13 +18,14 @@ int main() {
  int sum = 0;
  do {
  cin >> bill;
- // Esta construccion del if y continue nos permite ignorar casos
-innecesarios
- if (bill <= 0) {
- continue;
- }
+ // Esta construccion del if y continue nos permite ignorar casos innecesarios
+ if (bill <= 0) 
+ {
+ 
+ }else{
  cout << "Income: " << bill << endl;
  sum += bill;
+ }
  // la señal del final del programa será una cuenta de cero
  } while (bill != 0);
  cout << "Total income: " << sum << endl;
